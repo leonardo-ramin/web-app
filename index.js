@@ -42,7 +42,7 @@ app.use(
    secret: SESSION_SECRET,
    auth0Logout: true,
    baseURL: APP_URL,
-   issuerBaseURL: 'https://dev-deal-llima.us.auth0.com/.well-known/openid-configuration',
+   issuerBaseURL: 'https://dev-deal-llima.us.auth0.com',
  })
 );
 
